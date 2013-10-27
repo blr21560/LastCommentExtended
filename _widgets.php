@@ -99,7 +99,7 @@ class adminLCE
 		if ( $w->class) {
 			$class = html::escapeHTML( $w->class);
 		}
-		if ( $w->content_only) {
+		if ( !$w->content_only) {
 			$divB = '<div class="lastcomments '.$class.'">';
 			$divE = '</div>';
 		}
@@ -126,7 +126,7 @@ class adminLCE
 		$lce->setting('dateformat',
 			__('Date format (leave empty to use default blog format):'),$p['dateformat']);
 		$lce->setting('stringformat',
-			__('String format (%1$s = date ; %2$s = title ; %3$s = author ; %4$s = content of the comment ; %5$s = comment URL):'),
+			__('String format (%1$s = date; %2$s = title; %3$s = author; %4$s = content of the comment; %5$s = comment URL):'),
 			$p['stringformat']);
 		$lce->setting('homeonly',__('Display on:'),0,'combo',
 			array(

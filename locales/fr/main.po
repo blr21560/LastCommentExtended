@@ -22,7 +22,7 @@ msgstr "Longueur maximale du commentaire :"
 msgid "Date format (leave empty to use default blog format):"
 msgstr "Format de la date (laissez vide pour utiliser le format par défaut du blog) :"
 
-msgid "String format (%1$s = date ; %2$s = title ; %3$s = author ; %4$s = content of the comment ; %5$s = comment URL):"
+msgid "String format (%1$s = date; %2$s = title; %3$s = author; %4$s = content of the comment; %5$s = comment URL):"
 msgstr "Format d'affichage (%1$s = date ; %2$s = titre ; %3$s = auteur ; %4$s = contenu du commentaire ; %5$s = URL du commentaire) :"
 
 msgid "Last comments with LCE plugin"
