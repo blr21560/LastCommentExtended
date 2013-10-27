@@ -1,0 +1,14 @@
+2013-10-26  Bernard Le Roux
+
+ * v0.9
+ * adaptation pour Dotclear 2.6
+ * suppression de conflit avec le plugin Muppet et le default_widget de Dotclear
+ * optimisation du code 
+
+
+2008-04-13  Oleksandr Syenchuk  <sacha@xn--phnix-csa.net>
+
+ * v0.8
+ * Permissions fixed
+ * A part of code rewrited
+ * Dotclear 2.0-beta7 compatibility (version 2.0-beta6 may cause problems)
