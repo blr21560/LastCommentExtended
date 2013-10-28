@@ -4,5 +4,4 @@ v0.1
  * fork de Dcom de Oleksandr Syenchuk  <sacha@xn--phnix-csa.net>
  * adaptation pour Dotclear 2.6
  * suppression de conflit avec le plugin Muppet et le default_widget de Dotclear
- * optimisation du code 
- * test
+ * optimisation du code
