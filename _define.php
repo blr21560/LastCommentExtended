@@ -29,6 +29,6 @@ $this->registerModule(
 		'type' => 'plugin',
 		'dc_min' => '2.5',
 		'support' => 'http://forum.dotclear.org/viewtopic.php?pid=323166#p323166',
-		'details' => 'http://plugins.dotaddict.org/dc2/details/dcom'
+		'details' => 'https://github.com/blr21560/LastCommentExtended/wiki'
 	)
 );
