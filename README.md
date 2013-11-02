@@ -6,14 +6,14 @@ LastCommentExtended (LCE) est un plugin pour [Dotclear] (http://fr.dotclear.org/
 
 Ce plugin ajoute un widget permettant lister les derniers commentaires du blog.
 
-La présentation des informations est très paramètrables (cf [le wiki] (https://github.com/blr21560/LastCommentExtended/wiki))
+La présentation des informations est très paramètrable (cf [le wiki] (https://github.com/blr21560/LastCommentExtended/wiki))
 
-Ce plugin est basé sur le plugin [Dcom]  (http://plugins.dotaddict.org/dc2/details/dcom) de Oleksandr Syenchuk, Pierre Van Glabeke.
+Ce plugin est basé sur le plugin [Dcom] (http://plugins.dotaddict.org/dc2/details/dcom) de Oleksandr Syenchuk, Pierre Van Glabeke.
 
 Compatibilité
 ============
 
-Ce plugin a été testé avec les versions 2.5 et 2.6 de  [Dotclear] (http://fr.dotclear.org/).
+Ce plugin a été testé avec les versions 2.5 et 2.6 de [Dotclear] (http://fr.dotclear.org/).
 
 Auteurs
 =======
