@@ -4,7 +4,7 @@ LastCommentExtended
 
 LastCommentExtended (LCE) est un plugin pour [Dotclear] (http://fr.dotclear.org/).
 
-Ce plugin ajoute un widget permettant lister les derniers commentaires du blog.
+Ce plugin ajoute un widget permettant de lister les derniers commentaires du blog.
 
 La présentation des informations est très paramètrable (cf [le wiki] (https://github.com/blr21560/LastCommentExtended/wiki))
 
