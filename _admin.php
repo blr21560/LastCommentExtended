@@ -16,4 +16,4 @@
 if (!defined('DC_CONTEXT_ADMIN')) { 
 	return; 
 }
-require dirname(__FILE__).'/_widgets.php';
+require_once __DIR__.'/_widgets.php';

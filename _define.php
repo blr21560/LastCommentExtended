@@ -16,19 +16,18 @@
 if (!defined('DC_RC_PATH')) { 
 	return; 
 }
-require_once dirname(__FILE__).'/ConstLCE.php';
 
 $this->registerModule(
-	/* Name */			ConstLCE::PLUGINNAME,
-	/* Description*/	ConstLCE::NS,
+	/* Name */			'LCE',
+	/* Description*/	'LastCommentExtended',
 	/* Author */		'Pierre Van Glabeke, Bernard Le Roux',
-	/* Version */		ConstLCE::VERSION,
+	/* Version */		'0.1',
 	/* Properties */
 	array(
 		'permissions' => 'admin',
 		'type' => 'plugin',
 		'dc_min' => '2.5',
-		'support' => 'http://forum.dotclear.org/viewtopic.php?pid=323166#p323166',
+		'support' => 'http://forum.dotclear.org/viewtopic.php?pid=326232#p326232',
 		'details' => 'https://github.com/blr21560/LastCommentExtended/wiki'
 	)
 );
