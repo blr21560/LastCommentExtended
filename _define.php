@@ -21,12 +21,12 @@ $this->registerModule(
 	/* Name */			'LCE',
 	/* Description*/	'LastCommentExtended',
 	/* Author */		'Pierre Van Glabeke, Bernard Le Roux',
-	/* Version */		'0.1',
+	/* Version */		'0.2',
 	/* Properties */
 	array(
 		'permissions' => 'admin',
 		'type' => 'plugin',
-		'dc_min' => '2.5',
+		'dc_min' => '2.7',
 		'support' => 'http://forum.dotclear.org/viewtopic.php?pid=326232#p326232',
 		'details' => 'https://github.com/blr21560/LastCommentExtended/wiki'
 	)

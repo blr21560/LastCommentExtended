@@ -76,6 +76,10 @@ class adminLCE
 	
 	public static function showWidget($w)
 	{
+
+		if ($w->offline)
+			return;
+			
 		$homeonly = (int)$w->homeonly;
 		$urlType = (string)$GLOBALS['core']->url->type;
 		if (($homeonly === 1 && $urlType !== 'default') ||
@@ -92,19 +96,10 @@ class adminLCE
 		
 		adminLCE::adjustDefaults($p);
 		
-		$title = $class = $divE = $divB = '';
-		if ( $p['title']) {
-			$title = '<h2>'.html::escapeHTML($p['title']).'</h2>';
-		}
-		if ( $w->class) {
-			$class = html::escapeHTML( $w->class);
-		}
-		if ( !$w->content_only) {
-			$divB = '<div class="lastcomments '.$class.'">';
-			$divE = '</div>';
-		}
-
-		return $divB . $title . self::show($p) . $divE;
+		$res =
+		($w->title ? $w->renderTitle(html::escapeHTML($w->title)) : '').
+    self::show($p);
+		return $w->renderDiv($w->content_only,'lastcomments '.$w->class,'',$res);
 	}
 	
 	public static function initWidget($w)
@@ -137,6 +132,7 @@ class adminLCE
 		);
 		$lce->setting('content_only',__('Content only'),0,'check');
 		$lce->setting('class',__('CSS class:'),'');
+		$lce->setting('offline',__('Offline'),0,'check');
 	
 	}
 	

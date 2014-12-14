@@ -20,7 +20,7 @@ if (!defined('DC_RC_PATH')) {
 class ConstLCE {
 	const PLUGINNAME = 'LCE';
 	const NS = 'LastCommentExtended';
-	const VERSION = '0.1';
+	const VERSION = '0.2';
 	const C_LIMIT = 10;
 	const T_LIMIT = 20;
 	const CO_LIMIT = 80;
