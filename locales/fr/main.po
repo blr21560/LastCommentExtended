@@ -10,6 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
+msgid "LastCommentExtended: last comments"
+msgstr "LastCommentExtended : derniers commentaires"
+
+msgid "Extensive list of latest comments posted"
+msgstr "Liste étentue des derniers commentaires publiés"
+
 msgid "Comments limit:"
 msgstr "Nombre de commentaires maximum :"
 
