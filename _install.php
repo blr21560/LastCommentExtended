@@ -17,12 +17,12 @@ if (!defined('DC_CONTEXT_ADMIN')) {
 }
 require_once dirname(__FILE__).'/ConstLCE.php';
 
-$core = $GLOBALS['core'];
+dcCore::app();
 
-$currentVersion = $core->getVersion( ConstLCE::NS);
+$currentVersion = dcCore::app()->getVersion( ConstLCE::NS);
  
 if (version_compare( $currentVersion, ConstLCE::VERSION,'>=')) {
 	return;
 }
-$core->setVersion(ConstLCE::NS, ConstLCE::VERSION);
+dcCore::app()->setVersion(ConstLCE::NS, ConstLCE::VERSION);
 return true;

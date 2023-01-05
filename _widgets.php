@@ -16,7 +16,7 @@ if (!defined('DC_RC_PATH')) {
 	return; 
 }
 require_once dirname(__FILE__).'/ConstLCE.php';
-$GLOBALS['core']->addBehavior('initWidgets',array('adminLCE','initWidget'));
+dcCore::app()->addBehavior('initWidgets',array('adminLCE','initWidget'));
 
 class adminLCE
 {
@@ -49,7 +49,7 @@ class adminLCE
 			? (string) $r['stringformat']
 			: '<a href="%5$s" title="%4$s">%2$s - %3$s<br/>%1$s</a>';
 		
-		$settingSystem = $GLOBALS['core']->blog->settings->system;
+		$settingSystem = dcCore::app()->blog->settings->system;
 		
 		$p['dateformat'] = !empty($r['dateformat'])
 			? (string) $r['dateformat']
@@ -80,7 +80,7 @@ class adminLCE
 			return;
 			
 		$homeonly = (int)$w->homeonly;
-		$urlType = (string)$GLOBALS['core']->url->type;
+		$urlType = (string) dcCore::app()->url->type;
 		if (($homeonly === 1 && $urlType !== 'default') ||
 			($homeonly === 2 && $urlType === 'default')) {
 			return;
@@ -147,7 +147,7 @@ class adminLCE
 	
 	public static function show( $p)
 	{
-		$rs = $GLOBALS['core']->blog->getComments( 
+		$rs = dcCore::app()->blog->getComments( 
 				array( 'limit' => $p['c_limit'], 'order' => 'comment_dt desc'));
 		
 		if ($rs->isEmpty()) {

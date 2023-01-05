@@ -12,21 +12,22 @@
 # if not, write to the Free Software Foundation, Inc.,
 # 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-if (!defined('DC_RC_PATH')) { 
-	return; 
+if (!defined('DC_RC_PATH')) {
+    return;
 }
 
 $this->registerModule(
-	/* Name */			'LastCommentExtended',
-	/* Description*/	'Extensive list of latest comments posted',
-	/* Author */		'Pierre Van Glabeke, Bernard Le Roux',
-	/* Version */		'0.3.1',
-	/* Properties */
-	array(
-		'permissions' => 'admin',
-		'type' => 'plugin',
-		'dc_min' => '2.7',
-		'support' => 'http://forum.dotclear.org/viewtopic.php?pid=326232#p326232',
-		'details' => 'https://github.com/brol/LastCommentExtended/wiki'
-	)
+    'LastCommentExtended',
+    'Extensive list of latest comments posted',
+    'Pierre Van Glabeke, Bernard Le Roux and contributors',
+    '1.0',
+    [
+        'requires'    => [['core', '2.24']],
+        'permissions' => dcCore::app()->auth->makePermissions([
+            dcAuth::PERMISSION_ADMIN,
+        ]),
+        'type'        => 'plugin',
+        'support'     => 'http://forum.dotclear.org/viewtopic.php?pid=326232#p326232',
+        'details'     => 'https://plugins.dotaddict.org/dc2/details/' . basename(__DIR__),
+    ]
 );
