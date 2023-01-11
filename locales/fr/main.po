@@ -1,35 +1,49 @@
+# Language: Français
+# Module: LastCommentExtended - 1.0-dev
+# Date: 2023-01-11 15:20:32
+# Author: Pierre Van Glabeke
+# Translated with translater 2022.12.26
+
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: LastCommentExtended 1.0-dev\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: brol <contact@brol.info>\n"
+"PO-Revision-Date: 2023-01-11T15:20:32+00:00\n"
+"Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: _widgets.php:106
 msgid "LastCommentExtended: last comments"
 msgstr "LastCommentExtended : derniers commentaires"
 
+#: _widgets.php:109
 msgid "Extensive list of latest comments posted"
 msgstr "Liste étentue des derniers commentaires publiés"
 
+#: _widgets.php:114
 msgid "Comments limit:"
 msgstr "Nombre de commentaires maximum :"
 
+#: _widgets.php:116
 msgid "Title lenght limit:"
 msgstr "Longueur maximale du titre :"
 
+#: _widgets.php:118
 msgid "Comment lenght limit:"
 msgstr "Longueur maximale du commentaire :"
 
+#: _widgets.php:120
 msgid "Date format (leave empty to use default blog format):"
 msgstr "Format de la date (laissez vide pour utiliser le format par défaut du blog) :"
 
+#: _widgets.php:122
 msgid "String format (%1$s = date; %2$s = title; %3$s = author; %4$s = content of the comment; %5$s = comment URL):"
 msgstr "Format d'affichage (%1$s = date ; %2$s = titre ; %3$s = auteur ; %4$s = contenu du commentaire ; %5$s = URL du commentaire) :"
 
 msgid "Last comments with LCE plugin"
 msgstr "Derniers commentaires par le plugin LCE"
+
