@@ -10,9 +10,10 @@
  * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
  */
 if (!defined('DC_RC_PATH')) { 
-	return; 
+	return null; 
 }
 require_once dirname(__FILE__).'/ConstLCE.php';
+
 dcCore::app()->addBehavior('initWidgets',array('adminLCE','initWidget'));
 
 class adminLCE
